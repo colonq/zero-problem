@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeroProblem\n"
+"POT-Creation-Date: 2018-12-10 00:36+0900\n"
+"PO-Revision-Date: 2018-12-10 00:38+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+
+#: Main.cpp:22
+msgid "Zero Problem"
+msgstr "Zero Problem"
+
+#: MainWindow.cpp:168 MainWindow.cpp:231 MergeHtmlDialog.cpp:70
+msgid "Append"
+msgstr "追加"
+
+#: MainWindow.cpp:169 MainWindow.cpp:232 MergeHtmlDialog.cpp:71
+msgid "Delete"
+msgstr "削除"
+
+#: MainWindow.cpp:170 MainWindow.cpp:233 MergeHtmlDialog.cpp:72
+msgid "Clear"
+msgstr "クリア"
+
+#: MainWindow.cpp:172
+msgid "Exit"
+msgstr "終了"
+
+#: MainWindow.cpp:174 MainWindow.cpp:223
+msgid "File"
+msgstr "ファイル"
+
+#: MainWindow.cpp:181 MainWindow.cpp:234
+msgid "Generate"
+msgstr "作成"
+
+#: MainWindow.cpp:182 MainWindow.cpp:235
+msgid "Stop"
+msgstr "中止"
+
+#: MainWindow.cpp:185 MainWindow.cpp:697
+msgid "Settings"
+msgstr "設定"
+
+#: MainWindow.cpp:187
+msgid "Problem"
+msgstr "問題"
+
+#: MainWindow.cpp:193 MergeHtmlDialog.cpp:73
+msgid "Merge"
+msgstr "統合"
+
+#: MainWindow.cpp:194
+msgid "Separate"
+msgstr "一問ごとに分割"
+
+#: MainWindow.cpp:195
+msgid "Separate by color"
+msgstr "黒番と白番で分割"
+
+#: MainWindow.cpp:197
+msgid "HTML"
+msgstr "HTML"
+
+#: MainWindow.cpp:203
+msgid "User guide"
+msgstr "ユーザーガイド"
+
+#: MainWindow.cpp:206
+msgid "License"
+msgstr "ライセンス情報"
+
+#: MainWindow.cpp:208
+msgid "Help"
+msgstr "ヘルプ"
+
+#: MainWindow.cpp:224
+msgid "Progress"
+msgstr "進捗率"
+
+#: MainWindow.cpp:260
+msgid "Time remaining: ;:;:;"
+msgstr "残り ;時間 ;分 ;秒"
+
+#: MainWindow.cpp:358
+msgid "skipped"
+msgstr "スキップ"
+
+#: MainWindow.cpp:379 MergeHtmlDialog.cpp:119
+msgid "Information"
+msgstr "報告"
+
+#: MainWindow.cpp:389 MainWindow.cpp:394 MergeHtmlDialog.cpp:112
+#: MergeHtmlDialog.cpp:126
+msgid "Error"
+msgstr "エラー"
+
+#: MainWindow.cpp:402 MainWindow.cpp:461 MergeHtmlDialog.cpp:213
+msgid "Unable to open \";\"."
+msgstr "\";\"が開けません。"
+
+#: MainWindow.cpp:413 MainWindow.cpp:472 MergeHtmlDialog.cpp:230
+msgid "Any Go problem isn't included in \";\"."
+msgstr "\";\"の中に問題が存在しません。"
+
+#: MainWindow.cpp:428 MainWindow.cpp:489
+msgid "Unable to separate the file. \";\" is already exists."
+msgstr ""
+"HTMLファイルを分割できません。\n"
+"\";\"が既に存在します。"
+
+#: MainWindow.cpp:439 MainWindow.cpp:509 MergeHtmlDialog.cpp:236
+msgid "Unable to save \";\"."
+msgstr "\";\"を保存できません。"
+
+#: MainWindow.cpp:578
+msgid "Open Go game files"
+msgstr "棋譜ファイルを開く"
+
+#: MainWindow.cpp:580
+msgid "Go game files (*.sgf;*.gib;*.ngf;*.ugf)|*.sgf;*.gib;*.ngf;*.ugf"
+msgstr "棋譜ファイル (*.sgf;*.gib;*.ngf;*.ugf)|*.sgf;*.gib;*.ngf;*.ugf"
+
+#: MainWindow.cpp:652 MergeHtmlDialog.cpp:197
+msgid "Choose an output file"
+msgstr "出力ファイル名を指定"
+
+#: MainWindow.cpp:654 MainWindow.cpp:713 MainWindow.cpp:734
+#: MergeHtmlDialog.cpp:155 MergeHtmlDialog.cpp:199
+msgid "HTML files (*.html)|*.html"
+msgstr "HTMLファイル (*.html)|*.html"
+
+#: MainWindow.cpp:706
+msgid "Marge HTML files"
+msgstr "HTMLファイルを統合"
+
+#: MainWindow.cpp:712 MainWindow.cpp:733 MergeHtmlDialog.cpp:154
+msgid "Open HTML files"
+msgstr "HTMLファイルを開く"
+
+#: MainWindow.cpp:725
+msgid "Each Go problem has copyed onto separate files."
+msgstr "HTMLファイルを一問ごとに分割しました。"
+
+#: MainWindow.cpp:746
+msgid "The Go problems which black and white to play has separated into two files."
+msgstr "HTMLファイルを黒番と白番で分割しました。"
+
+#: MainWindow.cpp:753 MainWindow.cpp:755
+msgid "user_guide.html"
+msgstr "user_guide_ja.html"
+
+#: MainWindow.cpp:826
+msgid "Unable to execute a Leela Zero."
+msgstr "Leela Zero の実行に失敗しました。"
+
+#: MainWindow.cpp:843
+msgid "Generating Go problems has stopped."
+msgstr "問題作成を中止しました。"
+
+#: MainWindow.cpp:892
+msgid "Generating Go problems has completed."
+msgstr "問題作成が終わりました。"
+
+#: MainWindow.cpp:926
+msgid "Do you want to stop generating Go problems?"
+msgstr "問題作成を中止しますか?"
+
+#: MainWindow.cpp:927 MainWindow.cpp:938
+msgid "Confirmation"
+msgstr "確認"
+
+#: MainWindow.cpp:937
+msgid "Do you want to force-quit this application?"
+msgstr "強制終了しますか?"
+
+#: MergeHtmlDialog.cpp:74 SettingDialog.cpp:208
+msgid "Close"
+msgstr "閉じる"
+
+#: MergeHtmlDialog.cpp:242
+msgid "The files have been merged."
+msgstr "HTMLファイルを統合しました。"
+
+#: SettingDialog.cpp:19
+msgid "Leela Zero:"
+msgstr "Leela Zero:"
+
+#: SettingDialog.cpp:35 SettingDialog.cpp:51
+msgid "Browse..."
+msgstr "参照"
+
+#: SettingDialog.cpp:45
+msgid "Network weights:"
+msgstr "Network weights:"
+
+#: SettingDialog.cpp:61
+msgid "Number of threads:"
+msgstr "スレッド数:"
+
+#: SettingDialog.cpp:78
+msgid "Number of visits:"
+msgstr "探索数:"
+
+#: SettingDialog.cpp:95
+msgid "Number of problems:"
+msgstr "問題数:"
+
+#: SettingDialog.cpp:112
+msgid "Search range:"
+msgstr "範囲:"
+
+#: SettingDialog.cpp:135
+msgid "Number of moves:"
+msgstr "最大の手数:"
+
+#: SettingDialog.cpp:152
+msgid "Character set:"
+msgstr "文字コード:"
+
+#: SettingDialog.cpp:156
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: SettingDialog.cpp:157
+msgid "Japanese (Shift_JIS) "
+msgstr "日本語（Shift_JIS）"
+
+#: SettingDialog.cpp:158
+msgid "Chinese (GB2312) "
+msgstr "中国語（GB2312）"
+
+#: SettingDialog.cpp:159
+msgid "Korean (EUC-KR) "
+msgstr "韓国語（EUC-KR）"
+
+#: SettingDialog.cpp:172
+msgid "Black"
+msgstr "黒番"
+
+#: SettingDialog.cpp:173
+msgid "White"
+msgstr "白番"
+
+#: SettingDialog.cpp:174
+msgid "Both"
+msgstr "両方"
+
+#: SettingDialog.cpp:175
+msgid "By name"
+msgstr "名前"
+
+#: SettingDialog.cpp:176
+msgid "Player"
+msgstr "対局者"
+
+#: SettingDialog.cpp:185
+msgid "Player names:"
+msgstr "対局者名:"
+
+#: SettingDialog.cpp:225
+msgid "Choose a Leela Zero binary"
+msgstr "リーラゼロの実行ファイルを選択"
+
+#: SettingDialog.cpp:226 SettingDialog.cpp:236
+msgid "All files (*)|*"
+msgstr "すべてのファイル (*)|*"
+
+#: SettingDialog.cpp:235
+msgid "Choose a network weights file"
+msgstr "ネットワークウエイトファイルを選択"
+
+#: TimeString.cpp:15 TimeString.cpp:23
+msgid "Go_%Y_%m_%d_%H_%M_%S"
+msgstr "囲碁_%Y_%m_%d_%H_%M_%S"
+
+#: TimeString.cpp:31 TimeString.cpp:39
+#, c-format
+msgid "%c"
+msgstr "%c"
+
+#, fuzzy
+#~| msgid "Generating Go problems has stopped."
+#~ msgid "Generate Go problems."
+#~ msgstr "問題作成を中止しました。"
+
+#, fuzzy
+#~| msgid "Problem"
+#~ msgid "zproblem"
+#~ msgstr "問題"
+
+#~ msgid "Weights:"
+#~ msgstr "Weights:"

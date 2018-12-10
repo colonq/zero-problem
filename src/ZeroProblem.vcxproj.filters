@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Memos">
+      <UniqueIdentifier>{78926df7-2137-47f8-a391-1d30edb6e1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analysis.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateHtml.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="gtp_lz.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="gtp_lz_stub.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="html.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="illustration.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="job.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="job_list.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="leela_zero.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="log_file.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeHtmlDialog.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="search_speed.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeString.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="variation.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="variation_list.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analysis.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="coordinate.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="exit_status.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateHtml.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="gtp_lz.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="gtp_lz_stub.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="html.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="illustration.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="job.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="job_list.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="leela_zero.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="log_file.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeHtmlDialog.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="search_speed.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_string.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="variation.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="variation_list.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TODO.md">
+      <Filter>Memos</Filter>
+    </None>
+  </ItemGroup>
+</Project>

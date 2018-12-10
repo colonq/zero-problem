@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zero Problem
+Comment=Go problem generator
+Exec=/usr/bin/zproblem
+Icon=zproblem
+Type=Application
+Categories=Game

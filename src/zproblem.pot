@@ -1,0 +1,287 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zero Problem\n"
+"POT-Creation-Date: 2018-12-10 00:36+0900\n"
+"PO-Revision-Date: 2018-11-21 00:04+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: ;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Main.cpp:22
+msgid "Zero Problem"
+msgstr ""
+
+#: MainWindow.cpp:168 MainWindow.cpp:231 MergeHtmlDialog.cpp:70
+msgid "Append"
+msgstr ""
+
+#: MainWindow.cpp:169 MainWindow.cpp:232 MergeHtmlDialog.cpp:71
+msgid "Delete"
+msgstr ""
+
+#: MainWindow.cpp:170 MainWindow.cpp:233 MergeHtmlDialog.cpp:72
+msgid "Clear"
+msgstr ""
+
+#: MainWindow.cpp:172
+msgid "Exit"
+msgstr ""
+
+#: MainWindow.cpp:174 MainWindow.cpp:223
+msgid "File"
+msgstr ""
+
+#: MainWindow.cpp:181 MainWindow.cpp:234
+msgid "Generate"
+msgstr ""
+
+#: MainWindow.cpp:182 MainWindow.cpp:235
+msgid "Stop"
+msgstr ""
+
+#: MainWindow.cpp:185 MainWindow.cpp:697
+msgid "Settings"
+msgstr ""
+
+#: MainWindow.cpp:187
+msgid "Problem"
+msgstr ""
+
+#: MainWindow.cpp:193 MergeHtmlDialog.cpp:73
+msgid "Merge"
+msgstr ""
+
+#: MainWindow.cpp:194
+msgid "Separate"
+msgstr ""
+
+#: MainWindow.cpp:195
+msgid "Separate by color"
+msgstr ""
+
+#: MainWindow.cpp:197
+msgid "HTML"
+msgstr ""
+
+#: MainWindow.cpp:203
+msgid "User guide"
+msgstr ""
+
+#: MainWindow.cpp:206
+msgid "License"
+msgstr ""
+
+#: MainWindow.cpp:208
+msgid "Help"
+msgstr ""
+
+#: MainWindow.cpp:224
+msgid "Progress"
+msgstr ""
+
+#: MainWindow.cpp:260
+msgid "Time remaining: ;:;:;"
+msgstr ""
+
+#: MainWindow.cpp:358
+msgid "skipped"
+msgstr ""
+
+#: MainWindow.cpp:379 MergeHtmlDialog.cpp:119
+msgid "Information"
+msgstr ""
+
+#: MainWindow.cpp:389 MainWindow.cpp:394 MergeHtmlDialog.cpp:112
+#: MergeHtmlDialog.cpp:126
+msgid "Error"
+msgstr ""
+
+#: MainWindow.cpp:402 MainWindow.cpp:461 MergeHtmlDialog.cpp:213
+msgid "Unable to open \";\"."
+msgstr ""
+
+#: MainWindow.cpp:413 MainWindow.cpp:472 MergeHtmlDialog.cpp:230
+msgid "Any Go problem isn't included in \";\"."
+msgstr ""
+
+#: MainWindow.cpp:428 MainWindow.cpp:489
+msgid "Unable to separate the file. \";\" is already exists."
+msgstr ""
+
+#: MainWindow.cpp:439 MainWindow.cpp:509 MergeHtmlDialog.cpp:236
+msgid "Unable to save \";\"."
+msgstr ""
+
+#: MainWindow.cpp:578
+msgid "Open Go game files"
+msgstr ""
+
+#: MainWindow.cpp:580
+msgid "Go game files (*.sgf;*.gib;*.ngf;*.ugf)|*.sgf;*.gib;*.ngf;*.ugf"
+msgstr ""
+
+#: MainWindow.cpp:652 MergeHtmlDialog.cpp:197
+msgid "Choose an output file"
+msgstr ""
+
+#: MainWindow.cpp:654 MainWindow.cpp:713 MainWindow.cpp:734
+#: MergeHtmlDialog.cpp:155 MergeHtmlDialog.cpp:199
+msgid "HTML files (*.html)|*.html"
+msgstr ""
+
+#: MainWindow.cpp:706
+msgid "Marge HTML files"
+msgstr ""
+
+#: MainWindow.cpp:712 MainWindow.cpp:733 MergeHtmlDialog.cpp:154
+msgid "Open HTML files"
+msgstr ""
+
+#: MainWindow.cpp:725
+msgid "Each Go problem has copyed onto separate files."
+msgstr ""
+
+#: MainWindow.cpp:746
+msgid "The Go problems which black and white to play has separated into two files."
+msgstr ""
+
+#: MainWindow.cpp:753 MainWindow.cpp:755
+msgid "user_guide.html"
+msgstr ""
+
+#: MainWindow.cpp:826
+msgid "Unable to execute a Leela Zero."
+msgstr ""
+
+#: MainWindow.cpp:843
+msgid "Generating Go problems has stopped."
+msgstr ""
+
+#: MainWindow.cpp:892
+msgid "Generating Go problems has completed."
+msgstr ""
+
+#: MainWindow.cpp:926
+msgid "Do you want to stop generating Go problems?"
+msgstr ""
+
+#: MainWindow.cpp:927 MainWindow.cpp:938
+msgid "Confirmation"
+msgstr ""
+
+#: MainWindow.cpp:937
+msgid "Do you want to force-quit this application?"
+msgstr ""
+
+#: MergeHtmlDialog.cpp:74 SettingDialog.cpp:208
+msgid "Close"
+msgstr ""
+
+#: MergeHtmlDialog.cpp:242
+msgid "The files have been merged."
+msgstr ""
+
+#: SettingDialog.cpp:19
+msgid "Leela Zero:"
+msgstr ""
+
+#: SettingDialog.cpp:35 SettingDialog.cpp:51
+msgid "Browse..."
+msgstr ""
+
+#: SettingDialog.cpp:45
+msgid "Network weights:"
+msgstr ""
+
+#: SettingDialog.cpp:61
+msgid "Number of threads:"
+msgstr ""
+
+#: SettingDialog.cpp:78
+msgid "Number of visits:"
+msgstr ""
+
+#: SettingDialog.cpp:95
+msgid "Number of problems:"
+msgstr ""
+
+#: SettingDialog.cpp:112
+msgid "Search range:"
+msgstr ""
+
+#: SettingDialog.cpp:135
+msgid "Number of moves:"
+msgstr ""
+
+#: SettingDialog.cpp:152
+msgid "Character set:"
+msgstr ""
+
+#: SettingDialog.cpp:156
+msgid "UTF-8"
+msgstr ""
+
+#: SettingDialog.cpp:157
+msgid "Japanese (Shift_JIS) "
+msgstr ""
+
+#: SettingDialog.cpp:158
+msgid "Chinese (GB2312) "
+msgstr ""
+
+#: SettingDialog.cpp:159
+msgid "Korean (EUC-KR) "
+msgstr ""
+
+#: SettingDialog.cpp:172
+msgid "Black"
+msgstr ""
+
+#: SettingDialog.cpp:173
+msgid "White"
+msgstr ""
+
+#: SettingDialog.cpp:174
+msgid "Both"
+msgstr ""
+
+#: SettingDialog.cpp:175
+msgid "By name"
+msgstr ""
+
+#: SettingDialog.cpp:176
+msgid "Player"
+msgstr ""
+
+#: SettingDialog.cpp:185
+msgid "Player names:"
+msgstr ""
+
+#: SettingDialog.cpp:225
+msgid "Choose a Leela Zero binary"
+msgstr ""
+
+#: SettingDialog.cpp:226 SettingDialog.cpp:236
+msgid "All files (*)|*"
+msgstr ""
+
+#: SettingDialog.cpp:235
+msgid "Choose a network weights file"
+msgstr ""
+
+#: TimeString.cpp:15 TimeString.cpp:23
+msgid "Go_%Y_%m_%d_%H_%M_%S"
+msgstr ""
+
+#: TimeString.cpp:31 TimeString.cpp:39
+#, c-format
+msgid "%c"
+msgstr ""

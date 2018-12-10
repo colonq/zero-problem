@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User guide</title>
+</head>
+<body>
+<h1>User guide</h1>
+<h2>Overview</h2>
+<p>Zero Problem is a software which generates Go problems from your or someone's Go game records using <a href="https://zero.sjeng.org/">Leela Zero</a>. It works on Windows Vista and later.</p>
+<h2>Installation</h2>
+<h3>Zero Problem</h3>
+<p>You have to download the latest ZIP file of Zero Problem for Windows from <a href="https://github.com/colonq/ZeroProblem/releases">GitHub</a>, and extract it. A smaller ZIP file only includes Zero Problem. Other ZIP files also include the files Zero Problem requires to work. If you have got a smaller one, you need to get Leela Zero, its network weights file, and Roboto fonts.</p>
+<h3>Leela Zero and its network weights file</h3>
+<ul>
+<li>
+<p>Get the latest ZIP file of Leela Zero for Windows from <a href="https://github.com/gcp/leela-zero/releases">GitHub</a></p>
+</li>
+<li>
+<p>Get a network weights file from the list of <em>Best Network Hash</em> on <a href="https://zero.sjeng.org/">Leela Zero</a>. If you want a small and quality network weights file, an <a href="https://research.fb.com/facebook-open-sources-elf-opengo/">ELF OpenGo</a>'s network weights file is available from <a href="http://zero.sjeng.org/networks/62b5417b64c46976795d10a6741801f15f857e5029681a42d02c9852097df4b9.gz">here</a>, which is converted for Leela Zero.</p>
+</li>
+</ul>
+<h3>Fonts</h3>
+<ul>
+<li>
+<p>Get the latest <em>roboto-hinted.zip</em> from <a href="https://github.com/google/roboto/releases">GitHub</a>,  and extract it.</p>
+</li>
+<li>
+<p>Double-click each of the files of <em>Roboto-Regular.ttf</em>, <em>RobotoCondensed-Regular.ttf</em>, and <em>Roboto-Bold.ttf</em>. And install the fonts from a font viewer.</p>
+</li>
+</ul>
+<h3>Build from source</h3>
+<p>If you want to build Zero Problem from source, see <a href="how_to_build.html">how_to_build.html</a>.</p>
+<h2>Usage</h2>
+<h3>Start</h3>
+<p>Double-click <em>ZeroProblem.exe</em> to run.</p>
+<h3>Change some settings</h3>
+<p>Select <em>Settings</em> from the problem menu. The settings dialog contains the following properties:</p>
+<ul>
+<li><strong>Leela Zero</strong>: The path to <em>leelaz.exe</em>.</li>
+<li><strong>Network weights</strong>: The path to a network weights file.</li>
+<li><strong>Number of threads</strong>: The number of threads to use for generating Go problems. It is typically the number of CPU cores or less.</li>
+<li><strong>Number of visits</strong>: The quality of Go problems. If you increase this number, you will get higher quality output but the generation speed will be lower.</li>
+<li><strong>Number of problems</strong>: The maximum number of Go problems generated from a Go game file. If the Go game recorded on a file is awesome or just short, this software will generate a less number of Go problems.</li>
+<li><strong>Search range</strong>: The range of position numbers to use for reducing positions which Go problems are generated from.</li>
+<li><strong>Number of moves</strong>: The maximum number of moves on each diagrams.</li>
+<li><strong>Character set</strong>: The default character set. If Go game file don't have a value of the character set property, this software will be use this value instead.</li>
+<li><strong>Player</strong>: The player who play next on the first position of each Go problem.</li>
+<li><strong>Player name</strong>: The list of player names. It is only used when the value of the player property is set <em>By name</em>. The player names must be separated by a semicolon.</li>
+</ul>
+<h3>Choose Go game files and generate Go problems</h3>
+<p>The main window contains the following buttons:</p>
+<ul>
+<li><strong>Append</strong>: appends Go geme files into the list. You can also drop files on the list control instead.</li>
+<li><strong>Delete</strong>: deletes Go geme files in the list.</li>
+<li><strong>Clear</strong>: clears the list.</li>
+<li><strong>Generate</strong>: opens a dialog to choose an output file name, and starts generating Go problems.</li>
+<li><strong>Stop</strong>: stops generating Go problems. If some Go problems have been already generated when the generating stops, they are written on an output file.</li>
+</ul>
+<p>Note: The time remaining would be displayed incorrectly.</p>
+<h3>Use a generated HTML file</h3>
+<ul>
+<li>Each Go problem contains a couple of diagrams arranged horizontally.</li>
+<li>Each Go problem have a caption. The caption contains an ID and a couple of estimated win rates, but each percentage may have a large error.</li>
+<li>A diagram on the left shows the best move sequence estimated by Leela Zero. A diagram on the right shows the next move and the best move sequence estimated by Leela Zero on the next position.</li>
+<li>You can click on a diagram to start animating, and click again to show the first diagram.</li>
+<li>When the mouse cursor is on a diagram, you can use the scroll wheel to show the next or previous position.</li>
+<li>A generated file is printed in grayscale from a web browser. The size of printed diagrams depends on your browser.</li>
+</ul>
+<h3>Edit generated HTML files</h3>
+<p>The following features are available from the HTML menu:</p>
+<ul>
+<li><strong>Merge</strong>: merges Several HTML files into a single file. If the input files have duplicate Go problems, they are ignored.</li>
+<li><strong>Separate</strong>: separates each of Go problems contained in an HTML file into its own files.</li>
+<li><strong>Separate by color</strong>: separates Go problems, which black and white to play, which contained in an HTML file, into two files.</li>
+</ul>
+<h2>Tips</h2>
+<p>Zero Problem is a Go problem generator, is <em>not</em> a Go game analyzer. It is probably a wrong idea that you use generated problems only for comparing the moves the AI recommended to the moves you played. Unless you solve Go problems repeatedly and learn how to make good move sequences, you will not improve your Go skills.</p>
+<h2>Licence</h2>
+<p>You may use this software for free. The source code of Zero Problem is released under the Creative Commons CC Zero License 1.0, but this software requires wxWidgets, Leela Zero, Roboto which are released under specific licenses. See <a href="../Licenses/license.html">license.html</a> for details.</p>
+</body>
+</html>

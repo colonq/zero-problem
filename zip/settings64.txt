@@ -1,0 +1,15 @@
+Format 1
+LeelaZero .\leela-zero-0.16-cpuonly-win64\leelaz.exe
+NetworkWeights .\leela-zero-network-weights\157.gz
+NumberOfThreads 2
+NumberOfVisits 300
+NumberOfProblems 9
+Start 5
+Last 244
+MaximumNumberOfMoves 20
+CharacterSet UTF-8
+Player both
+PlayerNames 
+SearchSpeed 0.1
+Logging disable
+BoardSize 19
