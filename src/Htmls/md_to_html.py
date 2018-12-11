@@ -25,9 +25,13 @@ def write_html(name, lang, title):
 	source = fin.read()
 	fin.close()
 	html = md.convert(source)
+	h = header1 + lang + header2 + title + header3 + html + footer
 	fout = open(name + ".html", "w", encoding="utf-8")
-	fout.write(header1 + lang + header2 + title + header3 + html + footer)
+	fout.write(h)
 	fout.close()
+	fdoc = open(r"../../docs/Htmls/" + name + ".html", "w", encoding="utf-8")
+	fdoc.write(h)
+	fdoc.close()
 
 write_html("how_to_build", "en", "How to build")
 write_html("user_guide", "en", "User guide")

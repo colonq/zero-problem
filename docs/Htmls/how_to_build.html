@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How to build</title>
+</head>
+<body>
+<h1>How to build from source</h1>
+<h2>On Windows</h2>
+<ol>
+<li>
+<p>Install Visual Studio Community 2015 or later with the optional feature "Visual C++".</p>
+</li>
+<li>
+<p>Download Boost C++ libraries, and run the following or similar command to build them:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span>&quot;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat&quot;
+.\bootstrap.bat
+.\b2.exe define=BOOST_USE_WINAPI_VERSION=0x0600 variant=debug,release link=static runtime-link=static threading=multi toolset=msvc-14.0 -j2 stage
+</pre></div>
+
+
+<ol>
+<li>
+<p>Download the source code of wxWidgets, and open build\msw\wx_vc14.sln, and change an option /MD to /MT in Properties-&gt;C/C++-&gt;Code Generation-&gt;Runtime Library of the Release configuration on each project.</p>
+</li>
+<li>
+<p>Build wxWidgets in the Release configuration.</p>
+</li>
+<li>
+<p>Download the source code of Zero Problem, open src\ZeroProblem.sln, select <em>x86</em> from the active solution platform combo box, and correct the values of the properties of include and library directories in Properties -&gt; VC++ Directories.</p>
+</li>
+<li>
+<p>Build Zero Problem in the Release configuration.</p>
+</li>
+</ol>
+<h2>On Linux</h2>
+<p>Zero Problem has not been tested enough on Linux, but you can build the software with the following or similar command if you are lucky:</p>
+<div class="highlight"><pre><span></span>sudo apt install build-essential git dpkg-deb-dev cmake libwxgtk3.0-dev libboost-all-dev fonts-roboto
+cd ~
+git clone https://github.com/colonq/zero-problem
+cd zero-problem/src
+mkdir build
+cd build
+cmake ..
+make
+</pre></div>
+
+
+<p>and install the software like below:</p>
+<div class="highlight"><pre><span></span>cpack
+sudo apt install ./zero-problem*.deb
+cd ..
+rm -rf build
+</pre></div>
+
+
+<p>and uninstall it like below:</p>
+<div class="highlight"><pre><span></span>sudo apt remove zero-problem
+</pre></div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ユーザーガイド</title>
+</head>
+<body>
+<h1>ユーザーガイド</h1>
+<h2>概要</h2>
+<p>Zero Problemは<a href="https://zero.sjeng.org/">Leela Zero</a>を使用して囲碁の棋譜から練習問題を作成するフリーウエアです。Microsoft Windows Vista以降で動作します。</p>
+<h2>ダウンロードとインストール</h2>
+<h3>本体の入手と配置</h3>
+<p><a href="https://github.com/colonq/ZeroProblem/releases">GitHub</a>から最新のZeroProblemのzipファイルをダウンロードして適当なフォルダに展開します。小さいzipファイルには本体のみ、大きいzipファイルには必要なものが一式入っています。本体だけダウンロードした人は以下の手順に従ってLeela Zeroとそのnetwork weightsファイルとフォントを入手してください。</p>
+<h3>Leela Zeroとそのnetwork weightsファイルの入手</h3>
+<ul>
+<li><a href="https://github.com/gcp/leela-zero/releases">GitHub</a>から最新のLeela Zeroのzipファイルをダウンロードして適当なフォルダに展開します。</li>
+<li><a href="https://zero.sjeng.org/">Leela Zero</a>のBest Network Hashのリスト内から好きなnetwork weightsファイルをダウンロードします。遅いPCを使用している人はLeela Zero用に変換された<a href="https://research.fb.com/facebook-open-sources-elf-opengo/">ELF OpenGo</a>のnetwork weightsファイルを<a href="http://zero.sjeng.org/networks/62b5417b64c46976795d10a6741801f15f857e5029681a42d02c9852097df4b9.gz">ここ</a>からダウンロードする選択もあります。</li>
+</ul>
+<h3>フォントの入手とインストール</h3>
+<ul>
+<li><a href="https://github.com/google/roboto/releases">GitHub</a>から最新のroboto-hinted.zipをダウンロードして展開してください。</li>
+<li>展開されたフォルダ内のRoboto-Regular.ttfとRobotoCondensed-Regular.ttfとRoboto-Bold.ttfの３つのフォントファイルをそれぞれダブルクリックしてフォントビューワーを表示してそこからインストールしてください。</li>
+</ul>
+<h3>ソースコードからのビルド</h3>
+<p>ソースからビルドしたい場合は<a href="how_to_build.html">how_to_build.html (英語)</a>を参照してください。</p>
+<h2>使い方</h2>
+<h3>起動</h3>
+<p>ZeroProblem.exeをダブルクリックして起動します。</p>
+<h3>設定を変更</h3>
+<p>問題メニューの設定をクリックしてダイアログを開きます。</p>
+<ul>
+<li><strong>Leela Zero</strong>: leelaz.exeがある場所を指定します。</li>
+<li><strong>Network weights</strong>: network weightsファイルがある場所を指定します。</li>
+<li><strong>スレッド数</strong>: 問題の作成に使用するスレッドの数を設定します。通常はCPUのコア数と同じかそれ以下にします。</li>
+<li><strong>探索数</strong>: 探索の量(visits)を設定します。この値を大きくすると問題の作成が遅くなる代わりに、より良い問題を出力します。</li>
+<li><strong>問題数</strong>: 一つの棋譜から作成する問題の最大の数を設定します。棋譜の手数が少ないときや悪手の少ないときは、設定より作成される問題の数が少なくなります。</li>
+<li><strong>範囲</strong>: 問題を作成する対象となる局面の範囲を設定します。</li>
+<li><strong>最大の手数</strong>: 問題の解答内の最大の手数を設定します。</li>
+<li><strong>文字コード</strong>: 棋譜の文字コードが不明な時に、代わりに使用される文字コードを設定します。</li>
+<li><strong>対局者</strong>: 問題の作成の対象となる手番を設定します。</li>
+<li><strong>対局者名</strong>: 対局者を名前に設定しているときに、この対局者名のリストにある人の手番を問題作成の対象として選択します。リストにはセミコロン「;」で区切ることで複数の名前を設定できます。</li>
+</ul>
+<h3>棋譜を選択して問題を作成</h3>
+<p>メイン画面にはボタンが5つあります。</p>
+<ul>
+<li><strong>追加</strong>: 問題の作成元になる棋譜を追加します。<br />
+ウインドウにファイルをドロップすることでも棋譜の追加ができます。</li>
+<li><strong>削除</strong>: 選択中の棋譜をリストから削除します。</li>
+<li><strong>クリア</strong>: 棋譜のリストをクリアします。</li>
+<li><strong>作成</strong>: 出力HTMLの名前を指定するためのダイアログが表示されます。ＯＫを押すと問題の作成を開始します。</li>
+<li><strong>中止</strong>: 問題の作成を中止します。既に作成しおえた問題があればファイルに出力されます。</li>
+</ul>
+<p>なお、残り時間の表示はあまり正確ではありません。</p>
+<h3>出力ファイルの使い方</h3>
+<ul>
+<li>それぞれの問題は二つの図を横に並べた形式で表示されます。</li>
+<li>問題番号の横に左右の変化図の勝率が表示されます。勝率の表示はあまり正確ではありません。</li>
+<li>左側の図はLeela Zeroが予想した進行を表します。右側の図は実際に次に打たれた手とそれ以降のLeela Zeroが予想した進行を表します。</li>
+<li>図をクリックするとアニメーションを開始します。もう一度クリックすると初期局面へ戻ります。</li>
+<li>図の上でマウスホイールを下に回すと手を進みます。上に回すと手が戻ります。</li>
+<li>HTMLは白黒で印刷できます。使用するウェブブラウザによって印刷される図のサイズが変わる場合があります。</li>
+</ul>
+<h3>ツールの使い方</h3>
+<p>HTMLメニューのツールからこのソフトウエアから出力されたされたファイルに対して最低限の編集ができます。</p>
+<ul>
+<li><strong>統合</strong> 複数のHTMLファイルを一つにまとめます。同じ問題が複数のHTMLに含まれる場合は始めの一つだけが出力されます。</li>
+<li><strong>一問ごとに分割</strong> 一つのHTMLファイル内に含まれる全ての問題をそれぞれ別のHTMLに分けて保存します。</li>
+<li><strong>黒番と白番で分割</strong> 一つのHTMLファイル内に含まれる全ての問題を黒番の問題と白番の問題で二つのHTMLに分けて保存します。</li>
+</ul>
+<h2>助言</h2>
+<p>Zero Problemは囲碁の問題を作成するソフトウエアです。棋譜を解析するプログラムではありません。繰り返し問題を解いて手順を覚えない限りあなたが強くなることはありません。AIの手を確認するだけでは勉強にはなりませんのでご注意ください。</p>
+<h2>ライセンス</h2>
+<p>このソフトウエアは無料で利用できます。ソースコードはCreative Commons CC Zero Licenseの下で公開されています。ただし、wxWidghts、Leela Zero、Robotoフォントを利用しているので、それらの固有のライセンスを尊重する必要があります。詳細は<a href="../Licenses/license.html">license.html</a>を参照してください。</p>
+</body>
+</html>
