@@ -16,5 +16,8 @@ Zero Problem can generate interactive and printable htmls. Here's an example:
 ## Download
 You can download the latest binary of Zero Problem for Windows from [here](https://github.com/colonq/zero-problem/releases).
 
+## Documents
+If you would like to read the documentation of this software before downloading, you would read it from [here](https://colonq.github.io/zero-problem).
+
 ## Licence
 The source codes of Zero Problem is released under the Creative Commons CC Zero License 1.0, but this software requires wxWidgets, Leela Zero, Roboto which are released under specific licenses. See [license.html](https://colonq.github.io/zero-problem/Licenses/license.html) for details.
